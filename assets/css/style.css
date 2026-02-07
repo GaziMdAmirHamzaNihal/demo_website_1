@@ -1,0 +1,755 @@
+/* font */
+@font-face {
+    font-family: Poppins;
+    src: url(/vendors/font/Poppins-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: Poppins;
+    src: url(/vendors/font/Poppins-Regular.ttf) format('truetype');
+}
+/* common-css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* start menu bar */
+.menu-body{
+  background-image: url(../img/backgroundImage1.png);
+  background-size: cover;
+}
+.main-manu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.manu-ul{
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: white;
+  margin-right: 40px;
+  margin-bottom: -3px;
+  margin-left: 102px;
+}
+.list-item{
+  margin-right: 30px;
+  font-size: 16px;
+}
+.list-item:hover{
+  color: #F4D465;
+  transition: 0.1s;
+}
+.list-item.active{
+  color: #323232;
+}
+.menu-sec3{
+  text-align: right; /* to show search bar from rightside */
+}
+/* end menu bar */
+
+
+
+/* start hamburger menu */
+.hamburger{
+  display:none; /* to hide in wide scale */
+  cursor: pointer;
+}
+.bar{
+  display: block; /* to display bar */
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+/* end hamburger menu */
+
+
+/* start discount sec */
+.discount{
+  display: flex;
+  margin-top: 180px;
+}
+h1.os-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+}
+.os-des{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.os-button{
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 0px;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  background-color: #F4D465;
+  color: black;
+  margin-bottom: 120px;
+  margin-left: 185px;
+}
+.os-button:hover{
+  background-color: white;
+  color: #323232;
+  transition: 0.2s;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+/* end discount sec */
+/* start pop-sec */
+.pop-sec{
+  background-image: url(../img/backgroundImage2.png);
+  background-size: cover;
+}
+.ps-title{
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 110PX;
+  margin-bottom: 30PX;
+}
+.ps-title:hover{
+  color: white;
+  transition: 0.2s;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.ps-des{
+  display: flex;
+  text-align: center;
+  margin-bottom: 80PX;
+}
+.ps-card{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 160px;
+}
+.psc-img{
+  width: 280px;
+  height: auto;
+}
+.psc-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.psc-des{
+  margin-top:25px;
+  font-size: 15px;
+}
+/* end pop-sec */
+
+/* start chicken-sec */
+.chicken-sec{
+  background-image: url(../img/backgroundImage4.png);
+  background-size: cover;
+}
+.cs-imgage{
+  margin-top: 100px;
+}
+.cs-img{
+  width: 400px;
+  height: auto;
+}
+.cs-orderinfo{
+  margin-top: 280px;
+  padding-left: 50px;
+}
+.cso-title{
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+.cso-title:hover{
+  color: #F4D465;
+}
+.cso-des{
+  color: white;
+  margin-bottom: 50px;
+  font-weight:200;
+  font-size: 17px;
+}
+.cso-button{
+  padding: 10px 80px;
+  border: 0px;
+  font-weight: bold;
+  background-color: #F4D465;
+  margin-bottom: 160PX;
+}
+.cso-button:hover{
+  background-color: white;
+  color: #323232;
+}
+/* end chicken-sec */
+/* start statistic-sec */
+.statistic-sec{
+  background-image: url(../img/backgroundImage5.png);
+  background-size: cover;
+}
+.statistic-sec1{
+  margin-top: 100px;
+  text-align: center;
+}
+.ss-title{
+  font-weight: bold;
+}
+.ss-title:hover{
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.ss-des{
+  margin-bottom: 70px;
+}
+.statistic-sec2{
+  display: flex;
+  justify-content: space-between ;
+  margin-bottom:110px;
+}
+/* end statistic-sec */
+
+/* start chicken-satay-sec */
+.chicken-satay{
+  background-image: url(../img/backgroundImage6.png);
+  background-size: cover;
+}
+.chicken-satay-sec1{
+  margin-top: 250px;
+}
+.css-title{
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+.css-title:hover{
+  color: #F4D465;
+}
+.css-des{
+  color: white;
+  font-size: 17px;
+  margin-bottom: 50PX;
+  padding-right: 80px;
+}
+.css-button{
+  padding: 10px 80px;
+  border: 0px;
+  font-weight: bold;
+  background-color: F4D465;
+  margin-bottom: 160PX;
+}
+.css-button:hover{
+  background-color: #F4D465;
+  color: #323232;
+  transition: 0.3sec;
+}
+.chicken-satay-sec2{
+  margin-top: 65px;
+}
+/* end chicken-satay-sec */
+
+/* start main-chef-sec */
+.main-chef-sec{
+  background-image: url(../img/backgroundImage8.png);
+  background-size: cover;
+}
+.main-chef{
+  text-align: center;
+}
+.mc-img{
+  margin-top: 150px;
+  margin-bottom: 70px;
+  width: 230px;
+  height: auto;
+}
+.mc-des{
+  font-size: 20px;
+}
+.mc-title{
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+/* end main-chef-sec */
+
+/*  start subscribe-sec */
+.subscribe-sec{
+  background-image: url(../img/backgroundImage7.png);
+  background-size: cover;
+}
+.subscribe{
+  text-align: center;
+}
+.sus-title{
+  font-weight: bold;
+  margin-top: 250px;
+  margin-bottom: 35px;
+}
+.sus-title:hover{
+  color: white;
+}
+.sus-des{
+  font-size: 17px;
+  margin-bottom: 100px;
+}
+/*  end subscribe-sec */
+
+/* start footer-sec */
+.footer-sec{
+  background-color: #323232;
+  color: white;
+}
+.fs{
+  margin-top: 150px;
+  margin-bottom:60px;
+}
+.fs-title{
+  margin-bottom:40px;
+}
+.fs1-title{
+  margin-bottom:40px;
+}
+.fs1-title:hover{
+  color: #F4D465;
+}
+.footer-sec1{
+  margin-right: 80px;
+}
+.fs1-des{
+  font-size: 15px;
+}
+.footer-li{
+  list-style: none;
+  margin-left: -30px;
+  margin-bottom: 12px;
+}
+.footer-li a{
+  color: white;
+}
+.footer-li a:hover{
+  color: #F4D465;
+}
+
+/* end footer-sec */
+
+
+
+
+
+@media screen and (max-width: 1124px) {
+  /* chicken-sec */
+  .cs-orderinfo{
+    margin-top: 260px;
+    margin-bottom: 0;
+  }
+  .cs-img{
+    margin-bottom: 100px;
+  }
+  /* chicken-satay-sec */
+  .css-img{
+    width: 350px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: -100px;
+  }
+  .chicken-satay-sec1{
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 988px) {
+  .os-button{
+    margin-left: 100px;
+  }
+  .logo{
+    margin-left: -80px;
+  }
+  /*popular menu card */
+  .psc-img{
+    width: 230px;
+    height: auto;
+    margin-left: -32px;
+  }
+  /* chicken-sec */
+  .cs-orderinfo{
+    margin-top: 180px;
+  }
+  .cs-img{
+    width: 280px;
+    margin-top: 50px;
+  }
+  .cso-des{
+    margin-top: -20px;
+  }
+  /* statistic-sec */
+  .ss-img{
+    width: 200px;
+    height: auto;
+  }
+  /* chicken-satay-sec */
+  .css-img{
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: -130px;
+  }
+  .chicken-satay-sec1{
+    margin-top: 100px;
+    margin-bottom: -40px;
+  }
+  .css-title{
+    margin-bottom: 20px;
+  }
+  /* footer-sec */
+  .footer-sec1{
+    margin-left:-40px;
+  }
+  .footer-sec2{
+    margin-right: 20px;
+  }
+  .footer-ul{
+    margin-top: 70px;
+  }
+  .fs-title{
+    margin-top: 50px;
+  }
+  .fs-title.ft3{
+    margin-left: -20px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  /* start hamburger */
+  .hamburger{
+    display:block; /* to make it visible */
+    position:absolute;
+    top: 55px;
+    right: 113px;
+  }
+  .logo{
+    position: absolute;
+    top:45px;
+    left: 35px;
+  }
+  .manu-ul.open{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 185px;
+  }
+.manu-ul{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 185px;
+  position:absolute;
+  left: -100%;
+  gap:0;
+  width: 100%;
+}
+.search_bar{
+  display: none;
+}
+.menu-sec-2-3{  ######if serach bar added######
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .main-manu{
+    /* to show the logo in leftside and hamburger in rightside */
+    justify-content:space-between;
+    position: static;
+  }
+
+
+
+  /* ######## hambergur animation ######## */
+
+    .bar.open:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .bar.open:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .bar.open:nth-child(2){
+      opacity: 0;
+    }
+    .manu-ul.active{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-top: 115px;
+      margin-left: 100px;
+      position:absolute;
+      left: -30%;
+      gap:10;
+      width: 110%;
+      color: black;
+      background-color:#F4D465;
+      padding: 40px;
+      animation: slide-in 0.3s ease-in-out;
+    }
+    .manu-ul:not(.active){
+      animation: slide-out 0.3s ease-in-out forwards;
+    }
+    .manu-ul.active.list-item:hover{
+      color: white;
+    }
+    /* creating motion keyframe for in and out to use it in animation */
+    @keyframes slide-in {
+      0%{
+        transform: translateX(-100%);
+      }
+      100%{
+        transform: translateX(0);
+      }
+    }
+    @keyframes slide-out {
+      0%{
+        transform: translateX(0);
+      }
+      100%{
+        transform: translateX(-100%);
+      }
+    }
+
+  /* ############## */
+
+
+  .list-item{
+    margin: 16PX 0;
+  }
+
+  /* end hamburger */
+
+
+
+
+  .logo{
+    margin-left: 0;
+  }
+  .os-button{
+    margin-left: 180px;
+  }
+  /*popular menu card */
+  .psc-img{
+    width: 300px;
+    margin-left: 5px;
+    border-radius: 5%;
+  }
+  .ps-card{
+    flex-direction: column;
+  }
+  .ps-card-01{
+    margin-top: 30px;
+  }
+  .psc-title{
+    margin-bottom: -15px;
+  }
+  /* chicken-sec */
+  .cs-orderinfo{
+    margin-top: 40px;
+    margin-bottom: -50px;
+  }
+  .cs-img{
+    margin-left: 40px;
+    margin-top: 0;
+  }
+  .cso-title{
+    margin-bottom: 30px;
+  }
+  /* statistic-sec */
+  .ss-img{
+    width: 120px;
+    height: auto;
+  }
+  /* chicken-satay-sec */
+  .css-img{
+    width: 260px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: -130px;
+  }
+  /* footer-sec */
+  .footer{
+    text-align: center;
+  }
+  .footer-sec1{
+    margin: 50px 0 0 0;
+  }
+  .footer-sec2{
+    margin: 40px 0 0 0;
+  }
+  .footer-sec3{
+    margin: 40px 0 0 0;
+  }
+  .footer-sec4{
+    margin: 40px 0 70px 0 ;
+  }
+  .footer-ul{
+    margin-top: 70px;
+  }
+  .fs1-title{
+    margin-top: 20px;
+  }
+  .fs-title{
+    margin: 0 0 -40px 0;
+  }
+  .fs-title.ft3{
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 310px) {
+  .hamburger{
+    margin: 10px 0 0 0;
+  }
+  .os-button{
+    margin-left: 60px;
+  }
+  .psc-img{
+    margin-left: 0;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  /* chicken-sec */
+  .cs-img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 20px;;
+    margin-left: 30px;
+  }
+  .cso-title{
+    margin-bottom: 30px;
+    text-align:center;
+  }
+  .cso-des{
+    text-align:center;
+  }
+  .cs-orderinfo{
+    margin-top: 260px;
+    margin-bottom: -50px;
+    margin-left: -30px;
+  }
+  .cso-button{
+    border-radius: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo{
+    margin-left: 0;
+  }
+  .manu-ul{
+    margin-left: 140px;
+  }
+  .os-button{
+    margin-left: 150px;
+  }
+  /*popular menu card */
+  .ps-card {
+    flex-direction: column;
+  }
+  .psc-img{
+    border-radius: 25%;
+    border: 2px;
+    border-color: white;
+    width: 250px;
+    height: 230px;
+  }
+  .psc-title{
+    margin-bottom: -8px;
+  }
+  .ps-card{
+    margin-bottom: 30px;
+  }
+  /* chicken-sec */
+  .cs-img{
+    height: 400px;
+    width: auto;
+    margin-bottom: 20px;;
+    margin-left: 42px;
+  }
+  .cso-title{
+    margin-bottom: 30px;
+  }
+  .cs-orderinfo{
+    margin-top: 260px;
+    margin-bottom: -50px;
+  }
+  /* chicken-satay-sec */
+  .chicken-satay-sec1{
+    margin-left: 85px;
+    margin-top: 90px;
+  }
+  .css-img{
+    width: 260px;
+    height: auto;
+    margin-top: -120px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+  }
+  .hamburger {
+    top: 65px;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* chicken-sec */
+  .cs-img{
+    margin-bottom: 0;
+  }
+  .cso-title{
+    margin-bottom: 30px;
+    margin-top: -200px;
+  }
+  .cs-orderinfo{
+    margin-top: 260px;
+    margin-bottom: -50px;
+  }
+  /* chicken-satay-sec */
+  .chicken-satay-sec1{
+    margin-left: 85px;
+    margin-top: 90px;
+  }
+  .css-img{
+    width: 260px;
+    height: auto;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+  }
+  .hamburger {
+    top: 65px;
+    right: 56px;
+  }
+}
+}
+
+
+/* humburger menu */
